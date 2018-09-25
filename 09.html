@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Box model</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <style type="text/css" media="screen">
+
+      body,html {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      }
+
+      .clearfix{
+        clear: both;
+      }
+
+      header{
+        margin: 0;
+        background: #000;
+        box-sizing: border-box;
+      }
+
+      header h1 {
+        color:#fff;
+        padding: 15px 0 10px 20px;
+        margin: 0;
+      }
+
+      .menu{
+        background-color: #cccccc;
+        float: left;
+        width: 40%;
+        padding: 0 0 30px 20px;
+        box-sizing: border-box;
+
+      }
+      .menu nav li{
+        text-decoration-line:none;
+      }
+
+      .subtitulo{
+        background-color: #fff;
+        float: right;
+        width: 60%;
+        padding: 0 0 0 20px;
+        box-sizing: border-box;
+      }
+
+      footer{
+        background: #ababab;
+        text-align: center;
+      }
+
+      footer p{
+        color: #fff;
+        font-size: 13px;
+        padding: 5px 0 10px 0;
+        margin: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Título página</h1>
+    </header>
+
+    <div class="menu">
+      <h2>Menú</h2>
+      <nav>
+        <li><a href="#">Item-1</a></li>
+        <li><a href="#">Item-2</a></li>
+        <li><a href="#">Item-3</a></li>
+        <li><a href="#">Item-4</a></li>
+        <li><a href="#">Item-5</a></li>
+      </nav>
+    </div>
+
+    <div class="subtitulo">
+      <h2>Sub-título</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aperiam omnis magni aut voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aperiam omnis magni aut voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aperiam omnis magni aut voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aperiam omnis magni aut voluptas</p>
+    </div>
+    <div class="clearfix"></div>
+
+    <footer>
+      <p>© Todos los derechos reservados</p>
+    </footer>
+
+
+  </body>
+</html>
